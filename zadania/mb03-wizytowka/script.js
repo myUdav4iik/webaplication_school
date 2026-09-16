@@ -5,3 +5,14 @@ for (let i = 0; i < umietnosci.length; i++) {
     li.textContent = umietnosci[i];
     listaUmiejetnosci.appendChild(li);
 }
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const imie = document.getElementById("imie").value;
+    const email = document.getElementById("email").value;
+    const temat = document.getElementById("temat").value;
+    const wiadomosc = document.getElementById("tresc").value;
+    if (imie && email && temat && wiadomosc) {
+        
+    }});
