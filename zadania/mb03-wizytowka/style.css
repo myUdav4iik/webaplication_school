@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 800px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section{
+    padding: 10px;
+    margin: 10px;
+}
+nav a:hover{
+    scale: 1.2;
+}
+html{
+    scroll-behavior: smooth;
+}
