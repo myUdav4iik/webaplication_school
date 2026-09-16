@@ -18,9 +18,25 @@
     <main>
         <section id="o-mnie"></section>
         <section id="umietnosci">
-            <ul id="lista-umiejetnosci"></ul>
+            <ul id="lista-umietnosci"></ul>
         </section>
-        <section id="kontakt"></section>
+        <section id="kontakt">
+            <form>
+                <label for="imie">Imię:</label>
+                <input type="text" name="imie" placeholder="Imię">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email">
+                <label for="temat">Temat:</label>
+                <select name="temat">
+                    <option value="question">Pytanie</option>
+                    <option value="feedback">Opinia</option>
+                    <option value="other">Inne</option>
+                </select>
+                <label for="tresc">Wiadomość:</label>
+                <textarea name="tresc" placeholder="Wiadomość"></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
     </main>
     <footer>2026 zadanie z przedmiotu programowanie webowe zaawansowane</footer>
     <script src="script.js"></script>
